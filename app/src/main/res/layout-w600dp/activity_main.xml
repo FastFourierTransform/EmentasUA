@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    >
+    <fragment
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:id="@+id/cantinas_fragment"
+        class="com.icm.tiago.ementasua.CantinasFragment"/>
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:id="@+id/ementas_fragment"
+        class="com.icm.tiago.ementasua.EmentasFragment"/>
+
+</LinearLayout>

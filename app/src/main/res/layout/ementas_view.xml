@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/almocoJantar"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/showdia"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textSize="12sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sopa_string"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textSize="22sp"/>
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/sopadisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prato_string"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textSize="22sp"/>
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/prato1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="14sp" />
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/prato2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>

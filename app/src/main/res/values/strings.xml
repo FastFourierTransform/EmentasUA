@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EmentasUA</string>
+    <string name="prato_string">Prato</string>
+    <string name="sopa_string">Sopa</string>
+</resources>
